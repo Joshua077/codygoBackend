@@ -16,7 +16,7 @@ app.use((req, res, next) => {
  })
  
 app.get("/", (req, res) => {
-      res.send("Learning again")
+      res.send("Learning again with kay")
    })
 
 app.use("/api/v1/hotel", hotelRouter)
